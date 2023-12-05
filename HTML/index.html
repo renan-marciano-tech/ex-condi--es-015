@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Exercício</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sua Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p id="paragrafo">Digite o 'dia' e o 'ano' em que nasceu :</p>
+        </div>
+        <div>
+            <p>Ano de Nascimento :
+                <input type="number" name="txtano" id="txtano" min="1" >                
+            </p>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="sexom" checked>
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="sexof" >
+                <label for="sexo">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="/JS/script.js">
+        
+    </script>
+</body>
+</html>

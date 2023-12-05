@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+}
+section{
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(51, 51, 51, 0.45);
+    margin: auto;
+}
+div {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div label{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+}
+div#inp{
+    display: block;
+}
+img#foto{
+    width: 250px;
+    height: 250px;
+}
+button{
+    display: block;
+    margin: 4px 0px 4px 11px;
+    width: 75px;
+    height: 25px;
+}
+footer{
+    font-style: italic;
+    font-size: 20pt;
+    color: white;
+    text-align: center;
+}
